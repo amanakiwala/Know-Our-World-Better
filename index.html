@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	     <title>Know the world better</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	 <!--bootstrap-->
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+ <div class ="container">
+<!--jumbotron-->
+  <div class="jumbotron">
+     <h1 style ="color:#41358C;text-align:center;">Know our world better!</h1>
+     <p style ="color:#09327A;text-align:center;">Facts about different places around the world</p>
+  </div>
+  
+  
+      
+  <div class="panel panel-default" id = "section">
+        <div class="panel-heading" style="background-color:#351D78">
+           <h3 class="panel-title" style ="color:white;font-weight:bold">Search</h3>
+        </div>
+        <br />
+    <div class="panel-body" id ="content">
+      <label for="name">Country</label>
+        <select id ="country" class="form-control" >
+           <option>Selected Country</option>
+           <option>Australia</option>
+           <option>Barbados</option>
+           <option>Brazil</option>
+           <option>Cambodia</option>
+           <option>Canada</option>
+           <option>Colombia</option>
+           <option>Costa Rica</option>
+           <option>Cuba</option>
+           <option>Dominican Republic</option>
+           <option>Ecuador</option>
+           <option>Egypt</option>
+           <option>France</option>
+           <option>Germany</option>
+           <option>Greece</option>
+           <option>Haiti</option>
+           <option>Kenya</option>
+           <option>United States of America</option>
+       </select>
+       <br />
+       <br />
+      <div id="selectBoxes">
+        <label for="name">Facts</label>
+         <select id ="selectBox1" class="form-control">
+            <option>Select </option>
+            <option>Region</option>
+            <option>Subregion</option>
+            <option>Capital</option>
+            <option>Area</option>
+            <option>Population</option>
+             
+
+         </select>
+         <br />
+         <br />
+      </div>
+      <div id ="selectBoxes2"></div>
+      <div id ="selectBoxes3"></div>
+      <div id ="selectBoxes4"></div>
+      <div id ="selectBoxes5"></div>
+      
+      <div id ="gifsAppearHere"></div>
+    
+
+      <div id="buttons">
+        <button type="submit" class="btn btn-default" style ="background-color:#154F3A;color:white;" id="submit">Submit</button>
+        <button type="button" class="btn btn-danger" id ="add">Add more facts</button>        
+      </div>
+     
+      </div>
+      
+    </div>
+  </div>
+
+ </div>
+
+<script src='http://code.jquery.com/jquery-2.1.3.min.js'></script>
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+</html>
