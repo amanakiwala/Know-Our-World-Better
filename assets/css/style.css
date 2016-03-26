@@ -69,15 +69,25 @@ p{
 		background-image: url("../images/aroundworld1.jpg");	
 	}
 	.jumbotron {
-    background-color: #F22253;
-}
+        background-color: #F22253;
+    }
 
-
-.panel,.panel-heading,.panel-body{
-	opacity: .8;
-	width :600px;
-	background-color: #CAD9D9;
-}
+    .countryDiv{
+	    width :600px;
+	    height :300px;
+	    background-color: #90C3D4;
+	    opacity: .8;
+	    margin :auto;
+	    border:7px dotted #0F00B5;
+	
+	
+	
+    }
+    .panel,.panel-heading,.panel-body{
+	    opacity: .8;
+	    width :600px;
+	    background-color: #CAD9D9;
+    }
  
 }
 
@@ -86,14 +96,25 @@ p{
 		background-image: url("../images/world-1.jpg");
 	}
 	.jumbotron {
-    background-color: #6FA61E;
-}
+        background-color: #6FA61E;
+    }
+    .countryDiv{
+	    width :400px;
+	    height :300px;
+	    background-color: #90C3D4;
+	    opacity: .8;
+	    margin :auto;
+	    border:7px dotted #0F00B5;
 	
-.panel,.panel-heading,.panel-body{
-	opacity: .8;
-	width :400px;
-	background-color: #CAD9D9;
-}
+	
+	
+   }
+	
+   .panel,.panel-heading,.panel-body{
+	   opacity: .8;
+	   width :400px;
+	   background-color: #CAD9D9;
+  }
 
 }
 

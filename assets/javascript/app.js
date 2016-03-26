@@ -129,14 +129,14 @@ var lifeExpectancy = "life expectancy at birth";
 if (selectBoxes == lifeExpectancy || selectBoxes2 == lifeExpectancy || selectBoxes3 == lifeExpectancy || selectBoxes4 == lifeExpectancy || selectBoxes5 == lifeExpectancy || selectBoxes6 == lifeExpectancy ) {
 
 
-//  Racquel's code for UN Data 
+
   // make the AJAX request
 
 // http://api.undata-api.org/WHO/Life%20expectancy%20at%20birth/Germany/records?app_id=9ed2c241&app_key=09a895dafcf6e70bad03bef56317f454
 
- $.getJSON('http://api.undata-api.org/WHO/' + "Life expectancy at birth" + '/' +
-  selectedCountry +
-  '/records?app_id=9ed2c241&app_key=09a895dafcf6e70bad03bef56317f454',
+    $.getJSON('http://api.undata-api.org/WHO/' + "Life expectancy at birth" + '/' +
+     selectedCountry +
+     '/records?app_id=9ed2c241&app_key=09a895dafcf6e70bad03bef56317f454',
   function(data) {
     console.log(data);
 
@@ -161,19 +161,11 @@ if (selectBoxes == lifeExpectancy || selectBoxes2 == lifeExpectancy || selectBox
 
 
 
-}
-
-  
-
-
-
- //-----------------------------------------------//
-   
+  }
+ //-----------------------------------------------
 
    }
   });
-
- 
  
 //--------------------------------------------------------------------
 //adds new dropdown line for more facts
